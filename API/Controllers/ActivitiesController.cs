@@ -17,7 +17,7 @@ namespace API.Controllers
     {
       _context = context;
     }
-    //test
+    //no more main
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> GetActivities()
     {
